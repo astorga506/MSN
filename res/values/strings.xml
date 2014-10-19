@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MSN</string>
+    <string name="msn">Macrobiotica Salud Natural</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="usuario_txt">Usuario:</string>
+    <string name="contrasena_txt">Contraseña:</string>
+    <string name="ingresar_btn">Ingresar</string>
+    <string name="mensajeReg_txt">¿Aún no sos usuario? Registrarse es gratis.</string>
+    <string name="title_activity_registrar">Crear cuenta</string>
+    <string name="action_settings">Settings</string>
+    <string name="registrar_txt">Registrar</string>
+    <string name="nombre_txt">Nombre completo:</string>
+    <string name="correo_txt">Correo:</string>
+    <string name="rep_contrasena_txt">Repetir contraseña:</string>
+    <string name="telefono_txt">Teléfono:</string>
+    <string name="registrar_btn">Registrar</string>
+    <string name="title_activity_buscar">Buscar producto</string>
+    <string name="title_activity_producto">Producto</string>
+    <string name="title_activity_resultados">Resultados</string>
+    <string name="title_activity_ordenes">Ordenes</string>
+    <string name="title_activity_orden">Orden</string>
+    <string name="title_activity_carrito">Carrito</string>
+    <string name="title_activity_inicio">Inicio</string>
+    <string name="title_activity_contacto">Contacto</string>
+    <string name="title_activity_tiendas">Tiendas</string>
+    <string name="title_activity_consultar">Consultar</string>
+
+</resources>
