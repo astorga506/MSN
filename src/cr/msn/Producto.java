@@ -1,23 +1,22 @@
-package cr.msn.control;
+package cr.msn;
 
-import cr.msn.R;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class Tiendas extends ActionBarActivity {
+public class Producto extends ActionBarActivity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_tiendas);
+		setContentView(R.layout.activity_producto);
 	}
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.tiendas, menu);
+		getMenuInflater().inflate(R.menu.producto, menu);
 		return true;
 	}
 

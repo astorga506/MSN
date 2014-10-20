@@ -1,6 +1,5 @@
-package cr.msn.control;
+package cr.msn;
 
-import cr.msn.R;
 import android.app.Activity;
 import android.os.Bundle;
 
