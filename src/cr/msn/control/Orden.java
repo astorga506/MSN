@@ -1,5 +1,9 @@
-package cr.msn;
+package cr.msn.control;
 
+import cr.msn.R;
+import cr.msn.R.id;
+import cr.msn.R.layout;
+import cr.msn.R.menu;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;

@@ -6,11 +6,55 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="cr.msn.Inicio" >
+    tools:context="cr.msn.control.Inicio" >
 
     <TextView
+        android:id="@+id/promoTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_alignLeft="@+id/buscarTV"
+        android:layout_below="@+id/buscarTV"
+        android:layout_marginTop="19dp"
+        android:text="@string/promociones_txt"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/contactoTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/promoTV"
+        android:layout_below="@+id/promoTV"
+        android:layout_marginTop="15dp"
+        android:text="@string/contacto_txt"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/ordenesTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/contactoTV"
+        android:layout_below="@+id/contactoTV"
+        android:layout_marginTop="16dp"
+        android:text="@string/ordenes_txt"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/buscarTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="67dp"
+        android:text="@string/buscar_txt"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/hola"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>

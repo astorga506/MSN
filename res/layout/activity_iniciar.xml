@@ -18,7 +18,7 @@
         android:id="@+id/usuarioField"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView1"
+        android:layout_below="@+id/buscarTV"
         android:layout_centerHorizontal="true"
         android:ems="10" 
         android:inputType="text">
@@ -30,15 +30,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/usuarioField"
-        android:layout_below="@+id/textView3"
+        android:layout_below="@+id/promoTV"
         android:ems="10"
         android:inputType="textPassword" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/promoTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignLeft="@+id/buscarTV"
         android:layout_below="@+id/usuarioField"
         android:layout_marginTop="24dp"
         android:text="@string/contrasena_txt"
@@ -54,7 +54,7 @@
         android:text="@string/ingresar_btn" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/contactoTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/ingresarBtn"
@@ -64,10 +64,10 @@
         android:textAppearance="?android:attr/textAppearanceSmall" />
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/buscarTV"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignLeft="@+id/contactoTV"
         android:layout_below="@+id/textView2"
         android:layout_marginTop="34dp"
         android:text="@string/usuario_txt"

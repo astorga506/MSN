@@ -3,7 +3,7 @@
 
     <string name="app_name">MSN</string>
     <string name="msn">Macrobiotica Salud Natural</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="hola">Bienvenido</string>
     <string name="usuario_txt">Usuario:</string>
     <string name="contrasena_txt">Contraseña:</string>
     <string name="ingresar_btn">Ingresar</string>
@@ -26,5 +26,11 @@
     <string name="title_activity_contacto">Contacto</string>
     <string name="title_activity_tiendas">Tiendas</string>
     <string name="title_activity_consultar">Consultar</string>
+    <string name="buscar_txt">Buscar productos</string>
+    <string name="promociones_txt">Promociones</string>
+    <string name="contacto_txt">Contáctenos</string>
+    <string name="ordenes_txt">Órdenes pasadas</string>
+    <string name="resultados_txt">Resultados</string>
+    <string name="comprar_btn">Comprar</string>
 
 </resources>
