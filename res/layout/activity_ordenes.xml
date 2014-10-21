@@ -8,9 +8,4 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="cr.msn.control.Ordenes" >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
-
 </RelativeLayout>
