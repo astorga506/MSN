@@ -32,5 +32,7 @@
     <string name="ordenes_txt">Órdenes pasadas</string>
     <string name="resultados_txt">Resultados</string>
     <string name="comprar_btn">Comprar</string>
+    <string name="title_activity_promociones">Promociones</string>
+    <string name="hello_world">Hello world!</string>
 
 </resources>

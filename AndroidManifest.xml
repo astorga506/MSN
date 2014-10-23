@@ -9,13 +9,14 @@
         android:targetSdkVersion="21" />
 
     <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="cr.msn.control.Ingresar"
+            android:name=".control.Ingresar"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,48 +25,52 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="cr.msn.control.Registrar"
+            android:name=".control.Registrar"
             android:label="@string/title_activity_registrar" >
         </activity>
         <activity
-            android:name="cr.msn.control.Buscar"
+            android:name=".control.Buscar"
             android:label="@string/title_activity_buscar" >
         </activity>
         <activity
-			android:name="cr.msn.control.Producto"
+            android:name=".control.Producto"
             android:label="@string/title_activity_producto" >
         </activity>
         <activity
-            android:name="cr.msn.control.Resultados"
-            android:label="@string/title_activity_resultados">
-	  	</activity>
+            android:name=".control.Resultados"
+            android:label="@string/title_activity_resultados" >
+        </activity>
         <activity
-            android:name="cr.msn.control.Ordenes"
+            android:name=".control.Ordenes"
             android:label="@string/title_activity_ordenes" >
         </activity>
         <activity
-			android:name="cr.msn.control.Orden"
+            android:name=".control.Orden"
             android:label="@string/title_activity_orden" >
         </activity>
         <activity
-            android:name="cr.msn.control.Carrito"
+            android:name=".control.Carrito"
             android:label="@string/title_activity_carrito" >
         </activity>
         <activity
-            android:name="cr.msn.control.Inicio"
+            android:name=".control.Inicio"
             android:label="@string/title_activity_inicio" >
         </activity>
         <activity
-            android:name="cr.msn.control.Contacto"
+            android:name=".control.Contacto"
             android:label="@string/title_activity_contacto" >
         </activity>
         <activity
-            android:name="cr.msn.control.Tiendas"
+            android:name=".control.Tiendas"
             android:label="@string/title_activity_tiendas" >
         </activity>
-   		<activity
-            android:name="cr.msn.control.Consultar"
+        <activity
+            android:name=".control.Consultar"
             android:label="@string/title_activity_consultar" >
+        </activity>
+        <activity
+            android:name=".Promociones"
+            android:label="@string/title_activity_promociones" >
         </activity>
     </application>
 

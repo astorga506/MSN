@@ -1,9 +1,6 @@
 package cr.msn.control;
 
-import java.util.Timer;
-
 import cr.msn.R;
-import cr.msn.R.layout;
 import cr.msn.servicios.IniciarSesion;
 import android.app.Activity;
 import android.content.Intent;

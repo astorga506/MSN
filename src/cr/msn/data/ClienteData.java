@@ -37,7 +37,7 @@ public class ClienteData {
         
         envelope.dotNet = true;
         envelope.setOutputSoapObject(request);
-        HttpTransportSE androidHttpTransport = new HttpTransportSE("http://192.168.0.99/WebServiceMSN/MSN.asmx");
+        HttpTransportSE androidHttpTransport = new HttpTransportSE("http://192.168.0.99/WebServiceMSN/ClienteMSN.asmx");
         
         try {
             androidHttpTransport.call("http://msn.cr/EsCliente", envelope);
